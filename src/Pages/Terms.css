@@ -1,0 +1,59 @@
+
+  
+
+  /* Default styling for larger screens */
+.container {
+    text-align: justify;
+    direction: rtl;
+    font-size: 24px;
+    padding: 100px;
+    font-family: "YekanBakh2";
+    margin-bottom: 60px;
+    margin-top: -120px;
+    color: #387CFF;
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  p {
+    color: black;
+    font-size: 24px;
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+      margin-top: 0;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    h1 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 15px;
+      margin-top: 0;
+    }
+  
+    h1 {
+      font-size: 18px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
+  

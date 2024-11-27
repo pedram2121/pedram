@@ -1,0 +1,59 @@
+
+
+.responsive-container {
+    margin-top: 280px;
+    padding-right: 160px;
+    text-align: right;
+    font-family: "Vazirmatn1", sans-serif;
+    direction: rtl;
+  }
+  
+  .main-title {
+    font-size: 42px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .main-title .highlight {
+    color: #eca700;
+    font-size: 43px;
+  }
+  
+  .subtitle {
+    font-size: 42px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .main-title,
+    .subtitle {
+      font-size: 32px;
+      margin-right: 10px;
+    }
+  
+    .description {
+      font-size: 16px;
+      margin-right: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main-title,
+    .subtitle {
+      font-size: 24px;
+      margin-right: 5px;
+    }
+  
+    .description {
+      font-size: 14px;
+      margin-right: 5px;
+    }
+  }
+  

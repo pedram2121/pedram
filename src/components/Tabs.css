@@ -1,0 +1,114 @@
+
+.tabs-container {
+    width: 415px;
+    height: 575px;
+    margin: auto;
+    background: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-left: 40px;
+  }
+  
+  .tabs-header {
+    display: flex;
+    justify-content: center;
+    background: #F5F6F7;
+    padding: 50px 0;
+  }
+  
+  .tab-button {
+    flex: 1;
+    padding: 10px;
+    font-family: "Vazirmatn1", sans-serif;
+    font-size: 16px;
+    color: gray;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s, border-bottom 0.3s;
+  }
+  
+  .tab-button.active {
+    color: #387cff;
+    width: 20px;
+    border-bottom: 3px solid #387cff;
+  }
+  
+  .tab-button:hover {
+    color: #387cff;
+    width: 20px;
+  }
+  
+  .tabs-content {
+    padding: 20px;
+    text-align: center;
+    font-family: "Vazirmatn3", sans-serif;
+  }
+  
+  .tab-content {
+    margin-top: 40px;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+ 
+  label {
+    font-size: 16px;
+    margin-left: 170px;
+   
+  }
+  
+  .input-field {
+    flex: 1;
+    margin-right: 30px;
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 7px;
+    margin-top: -5px;
+    border: 1px solid #ddd;
+  }
+  
+  .action-button {
+    background: #387cff;
+    color: white;
+    border: none;
+    padding: 10px 90px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Vazirmatn2", sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+    transition: background 0.3s;
+  }
+  
+  .action-button:hover {
+    background: #2a5ebf;
+   
+  }
+  
+
+
+
+
+
+  .gold-label,
+.currency-label {
+  font-size: 16px; /* اندازه فونت */
+  color: #555; /* رنگ متن */
+  margin-top: 4px; /* فاصله از input */
+  text-align: left; /* جهت متن */
+  margin-right: 20px;
+}
+
+.gold-label {
+  font-weight: bold; /* فونت ضخیم‌تر برای "گرم طلا" */
+}
+
+.currency-label {
+  font-style: italic; /* فونت کج برای "تومان" */
+}
