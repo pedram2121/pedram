@@ -19,7 +19,7 @@ import Telegram from '../../src/Image/Telegram.png'
 import Linkdin from '../../src/Image/Linkdin.png'
 import instagram from '../../src/Image/instagram.png'
 import Line2 from "../../src/Image/Line2.png";
-import Tabs from '../components/Tabs'
+import Tabs from '../../src/components/Tabs';
 import React from 'react';
 import "./ResponsiveText.css";
 

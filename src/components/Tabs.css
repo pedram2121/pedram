@@ -1,4 +1,30 @@
 
+.sale-text {
+  color: red; /* تغییر رنگ متن به قرمز */
+}
+
+.sale-text .gold-label {
+  color: red; /* تغییر رنگ لیبل‌ها به قرمز */
+}
+
+.sale-text .input-field {
+  border: 1px solid red; /* مرز فیلد ورودی قرمز */
+}
+
+.sale-text .action-button {
+  background-color: red; /* رنگ پس‌زمینه دکمه فروش */
+  color: white; /* تغییر رنگ متن دکمه */
+}
+
+.sale-text .action-button:hover {
+  background-color: darkred; /* رنگ پس‌زمینه دکمه هنگام هاور */
+}
+
+
+
+
+
+
 .tabs-container {
     width: 415px;
     height: 575px;
