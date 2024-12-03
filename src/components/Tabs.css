@@ -10,6 +10,34 @@
 }
 
 
+.tab-button {
+  flex: 1;
+  padding: 15px; /* افزایش ارتفاع دکمه */
+  font-family: "Vazirmatn1", sans-serif;
+  font-size: 16px;
+  color: gray;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s, background-color 0.3s, box-shadow 0.3s;
+  background: #fff; /* رنگ پس‌زمینه دکمه‌ها */
+  border-radius: 15px 15px 0 0; /* حالت خمیده در بالای زبانه‌ها */
+  margin: 0 5px; /* فاصله بین زبانه‌ها */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* سایه برای زبانه‌ها */
+}
+
+.tab-button.active {
+  color: #387cff;
+  background-color: #f5f5f5; /* رنگ متفاوت برای زبانه فعال */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* سایه برای زبانه فعال */
+  border-bottom: none; /* حذف خط زیر زبانه فعال */
+}
+
+.tab-button:hover {
+  color: #387cff;
+  background-color: #f0f0f0; /* تغییر رنگ هنگام هاور */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* افزایش سایه هنگام هاور */
+}
+
 
 
 .input-field::placeholder {

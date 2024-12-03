@@ -12,8 +12,7 @@ const fetchRates = async () => {
 
 const GetProduct = () => {
   // استفاده از React Query برای بارگذاری داده‌ها
-  const {
-    data: rates, isLoading, isError, error, } = useQuery(['rates'], fetchRates, {
+  const { data: rates, isLoading, isError, error } = useQuery(['rates'], fetchRates, {
     // استفاده از caching و نگهداری داده‌ها در localStorage
     initialData: () => {
       const storedRates = localStorage.getItem('rates');
